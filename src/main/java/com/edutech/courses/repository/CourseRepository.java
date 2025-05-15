@@ -1,0 +1,7 @@
+package com.edutech.courses.repository;
+
+import com.edutech.courses.model.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
+}
