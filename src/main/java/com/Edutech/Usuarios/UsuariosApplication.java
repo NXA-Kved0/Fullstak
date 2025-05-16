@@ -1,13 +1,13 @@
-package com.Edutech.cl.EdutechSPA;
+package com.Edutech.Usuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EdutechSpaApplication {
+public class UsuariosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EdutechSpaApplication.class, args);
+		SpringApplication.run(UsuariosApplication.class, args);
 	}
 
 }

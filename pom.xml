@@ -8,11 +8,11 @@
 		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Edutech.cl</groupId>
-	<artifactId>EdutechSPA</artifactId>
+	<groupId>com.Edutech</groupId>
+	<artifactId>Usuarios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>EdutechSPA</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Usuarios</name>
+	<description>Gestionar registro, login, perfiles y roles de usuario</description>
 	<url/>
 	<licenses>
 		<license/>
