@@ -1,4 +1,4 @@
-package com.Edutech.Usuarios;
+package com.edutech.Usuarios.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
