@@ -1,4 +1,7 @@
-package com.edutech.Usuarios.repository;
+package com.Edutech.Usuarios.repository;
 
-public interface UsuariosRepository {
+import com.Edutech.Usuarios.model.Usuarios;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UsuariosRepository extends JpaRepository<Usuarios, Long> {
 }
