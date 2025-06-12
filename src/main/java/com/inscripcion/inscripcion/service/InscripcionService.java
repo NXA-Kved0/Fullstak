@@ -19,11 +19,11 @@ public class InscripcionService {
         return incripcionRepository.findAll();
     }
 
-    public Inscripcion findById (long id){
+    public Inscripcion findById (Integer id){
         return incripcionRepository.findById(id).get();
     }
 
-    public void delete (Long id){
+    public void delete (Integer id){
         incripcionRepository.deleteById(id);
     }
 
