@@ -39,6 +39,19 @@ public class Inscripcion {
     @Column(nullable = false)
     private String contactoEmergencia;
 
+    public Inscripcion() { }
+
+    public Inscripcion(Integer id, String run, String nombre, String apellido, Date fechaNacimiento, Date fechaIncripcion, String correo, String contactoEmergencia) {
+        this.id = id;
+        this.run = run;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.fechaNacimiento = fechaNacimiento;
+        this.fechaIncripcion = fechaIncripcion;
+        this.correo = correo;
+        this.contactoEmergencia = contactoEmergencia;
+    }
+
     public Integer getId() {
         return id;
     }
