@@ -9,6 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+
+
 @Service
 public class CourseService {
 
@@ -38,10 +40,18 @@ public class CourseService {
         return courseRepository.save(existingCourse);
     }
 
+
     public Course findById(Long id) {
         return courseRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Curso no encontrado con ID: " + id));
     }
+
+    public void deleteById(Long id) {
+        courseRepository.deleteById(id);
+    }
+
+
+
 
 
 }
