@@ -40,5 +40,11 @@ public class UsuariosService {
     public Usuarios findById(Long id) {
         return usuariosRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado con ID: " + id));
+
+
+    }
+
+    public void deleteById(Long id) {
+        usuariosRepository.deleteById(id);
     }
 }
